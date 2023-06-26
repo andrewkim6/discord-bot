@@ -154,6 +154,7 @@ async def help(ctx):
     embed = discord.Embed(title="Bot Commands", description="List of available commands:", color=discord.Color.blue())
 
     # Add commands and their descriptions to the embed
+    embed.add_field(name="!ask", value="Answers a question using OpenAI.", inline=False)
     embed.add_field(name="!meme", value="Fetches a random meme.", inline=False)
     embed.add_field(name="!cat", value="Shows a random picture of a cat.", inline=False)
     embed.add_field(name="!dog", value="Shows a random picture of a dog.", inline=False)
